@@ -10,7 +10,7 @@ def main():
 
 
 def start_server():
-    host = "4.14.146.42"
+    host = "172.31.18.159"
     port = 8000  # arbitrary non-privileged port
     soc = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     soc.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
