@@ -52,7 +52,7 @@ def client_thread(connection, ip, port, max_buffer_size=5120):
         file_text = f.read()
         connection.sendall(file_text)
         f.close()
-        time.sleep(600)  # sleep 5 seconds for testing
+        time.sleep(300)  # sleep 5 seconds for testing
 
 
 def receive_input(connection, max_buffer_size):
