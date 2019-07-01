@@ -47,7 +47,7 @@ def client_thread(connection, ip, port, max_buffer_size=5120):
         #     is_active = False
         # else:
         #     print("Processed result: {}".format(client_input))
-        filename = 'penplotter.pdf'  # In the same folder or path is this file running must the file you want to tranfser to be
+        filename = 'Untitled.pdf'  # In the same folder or path is this file running must the file you want to tranfser to be
         f = open(filename, 'rb')
         file_text = f.read()
         connection.sendall(file_text)
